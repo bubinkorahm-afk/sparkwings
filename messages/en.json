@@ -1,0 +1,302 @@
+{
+  "nav": {
+    "solutions": "Solutions",
+    "products": "Products",
+    "work": "Work",
+    "training": "Training",
+    "about": "About",
+    "bookDemo": "BOOK A DEMO",
+    "arabic": "عربي",
+    "switchLocale": "Switch to Arabic",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNav": "Main navigation",
+    "home": "Sparkwings home",
+    "menu": {
+      "odoo": "Sales, CRM, POS, inventory, accounting, HR & payroll",
+      "zatca": "Phase 1 & 2 compliant invoicing for Saudi Arabia",
+      "custom": "Web and mobile apps built around your workflow",
+      "website": "English & Arabic websites",
+      "workspace": "Business email, domains and setup",
+      "routewings": "Van sales and route sales field app",
+      "billing": "ZATCA-compliant billing for small shops"
+    }
+  },
+  "hero": {
+    "line1": "Transform Your Business",
+    "line2": "Digital Solutions for Modern Enterprises",
+    "stat1Value": "Official",
+    "stat1Label": "Odoo Learning Partner",
+    "stat2Value": "Phase 2",
+    "stat2Label": "ZATCA e-invoicing ready",
+    "desc": "One system for sales, stock, accounts and people. ZATCA-ready billing and field-sales apps for India and Saudi Arabia.",
+    "cta": "Book a demo",
+    "whatsapp": "Chat with us on WhatsApp",
+    "eyebrow": "Odoo & ZATCA software partner · India & Saudi Arabia",
+    "carouselLabel": "What we build",
+    "slideOf": "{index} of {total}",
+    "goToSlide": "Show {title}",
+    "prevSlide": "Previous slide",
+    "nextSlide": "Next slide",
+    "pause": "Pause carousel",
+    "play": "Play carousel",
+    "slideCta": "Learn more",
+    "slides": {
+      "odoo": {
+        "eyebrow": "ERP",
+        "title": "Odoo ERP implementation",
+        "alt": "Illustration: Odoo running on a laptop with CRM and Inventory panels"
+      },
+      "zatca": {
+        "eyebrow": "E-invoicing",
+        "title": "ZATCA Phase 1 & 2 e-invoicing",
+        "alt": "Illustration: a ZATCA tax invoice with QR code, marked Phase 2 cleared"
+      },
+      "routewings": {
+        "eyebrow": "Product",
+        "title": "Routewings van sales app",
+        "alt": "Illustration: the Routewings app showing today’s route and van stock"
+      },
+      "billing": {
+        "eyebrow": "Product",
+        "title": "Sparkwings Billing for shops",
+        "alt": "Illustration: a bilingual simplified tax invoice printed on a thermal printer"
+      },
+      "web": {
+        "eyebrow": "Software & web",
+        "title": "Websites & custom apps",
+        "alt": "Illustration: a website in a browser window next to a mobile app"
+      }
+    }
+  },
+  "ribbon": {
+    "label": "What we do",
+    "items": [
+      "Odoo ERP",
+      "ZATCA E-invoicing",
+      "Routewings",
+      "Billing Software",
+      "Websites",
+      "Google Workspace",
+      "Odoo Training"
+    ]
+  },
+  "services": {
+    "title": "Our Services",
+    "odoo": {
+      "title": "Odoo ERP",
+      "desc": "We set up Odoo around how your business already works, move your data in, train your team and stay on for support. One system instead of five spreadsheets.",
+      "features": [
+        "Sales, CRM & POS",
+        "Inventory & Purchase",
+        "HR & Payroll"
+      ],
+      "cta": "Learn more",
+      "visualLabel": "Illustration: a laptop running Odoo with CRM and Inventory panels"
+    },
+    "zatca": {
+      "title": "ZATCA E-invoicing",
+      "desc": "Issue tax invoices that meet Saudi Arabia’s e-invoicing rules, from Phase 1 generation to Phase 2 integration, in Arabic and English.",
+      "features": [
+        "Phase 1 & 2 setup",
+        "Arabic & English invoices",
+        "Thermal & A4 printing"
+      ],
+      "cta": "Check your readiness",
+      "visualLabel": "Illustration: a ZATCA tax invoice with a QR code, marked as cleared"
+    },
+    "software": {
+      "title": "Software & Web",
+      "desc": "Web and mobile apps built around your workflow, bilingual websites, and the business email and domains to go with them.",
+      "features": [
+        "Web & mobile apps",
+        "English & Arabic websites",
+        "Google Workspace & domains"
+      ],
+      "cta": "See our work",
+      "visualLabel": "Illustration: a browser window and a phone showing a custom app"
+    }
+  },
+  "products": {
+    "title": "Our Products",
+    "routewings": {
+      "label": "Field sales app",
+      "title": "Routewings",
+      "desc": "Van sales and route sales for field teams: plan routes, track van stock, GPS check-in, invoice offline, close the day, and issue ZATCA invoices — with optional Odoo sync.",
+      "cta": "Request a demo"
+    },
+    "billing": {
+      "label": "Billing software",
+      "title": "Sparkwings Billing",
+      "desc": "ZATCA-compliant billing for small shops in Saudi Arabia. Arabic and English receipts, printed on thermal or A4.",
+      "cta": "Book a free trial"
+    }
+  },
+  "fitFinder": {
+    "eyebrow": "ERP Fit Finder",
+    "title": "Which Odoo apps",
+    "titleGrad": "do you need?",
+    "subtitle": "Pick your industry to see the apps we usually start with.",
+    "industryLabel": "Your industry",
+    "industries": {
+      "retail": "Retail & shops",
+      "distribution": "Distribution",
+      "gyms": "Gyms & academies",
+      "services": "Services"
+    },
+    "apps": {
+      "sales": "Sales",
+      "crm": "CRM",
+      "pos": "POS",
+      "inventory": "Inventory",
+      "purchase": "Purchase",
+      "accounting": "Accounting",
+      "hr": "HR & Payroll",
+      "website": "Website"
+    },
+    "count": "{count} recommended apps",
+    "tipLabel": "Tip",
+    "tips": {
+      "retail": "Add Sparkwings Billing for ZATCA-compliant receipts at the counter.",
+      "distribution": "Add Routewings for van sales and route sales."
+    },
+    "cta": "Take the full quiz"
+  },
+  "stats": {
+    "label": "Sparkwings in numbers",
+    "years": "Years in business",
+    "projects": "Projects delivered",
+    "apps": "Odoo apps deployed",
+    "countries": "Countries served"
+  },
+  "testimonials": {
+    "title": "Our Happy Customers",
+    "quote": "[Client quote]",
+    "name": "[Client name]",
+    "company": "[Company]",
+    "pastWork": "Past projects",
+    "clientsLabel": "Clients",
+    "visit": "opens their website in a new tab"
+  },
+  "cta": {
+    "title": "Get a free 30-minute",
+    "titleGrad": "ERP consultation.",
+    "body": "Tell us what you run today. We’ll show you what Odoo, ZATCA billing or Routewings would look like for your business.",
+    "india": "India",
+    "saudi": "Saudi Arabia",
+    "nameLabel": "Your name",
+    "waLabel": "WhatsApp number",
+    "waHint": "With country code, e.g. +91 or +966",
+    "needLabel": "I need",
+    "needPlaceholder": "Choose a service",
+    "needOptions": {
+      "odoo": "Odoo ERP implementation",
+      "zatca": "ZATCA e-invoicing setup",
+      "routewings": "Routewings demo",
+      "billing": "Sparkwings Billing trial",
+      "custom": "Custom software",
+      "website": "Website development",
+      "workspace": "Google Workspace",
+      "training": "Odoo training"
+    },
+    "submit": "Book my consultation",
+    "sending": "Sending…",
+    "success": "Thanks! We’ll reach you on WhatsApp shortly.",
+    "error": "Something went wrong. Please try again, or message us on WhatsApp.",
+    "required": "Please fill in all fields.",
+    "phoneInvalid": "Please enter a valid phone number with country code.",
+    "rateLimited": "Too many requests. Please wait a few minutes, or message us on WhatsApp."
+  },
+  "footer": {
+    "tagline": "Transforming Ideas Into Technology",
+    "partner": "Official Odoo Learning Partner",
+    "solutions": "Solutions",
+    "solutionsLinks": {
+      "odoo": "Odoo ERP",
+      "zatca": "ZATCA E-invoicing",
+      "custom": "Custom Software",
+      "website": "Website Development",
+      "workspace": "Google Workspace"
+    },
+    "products": "Products",
+    "productsLinks": {
+      "routewings": "Routewings",
+      "billing": "Sparkwings Billing"
+    },
+    "company": "Company",
+    "companyLinks": {
+      "work": "Our Work",
+      "training": "Training",
+      "about": "About Us",
+      "insights": "Insights"
+    },
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "copyright": "© 2026 Sparkwings Enterprises OPC Pvt. Ltd.",
+    "whatsapp": {
+      "in": "WhatsApp India",
+      "sa": "WhatsApp KSA"
+    }
+  },
+  "whatsapp": {
+    "ariaLabel": "Chat on WhatsApp"
+  },
+  "consent": {
+    "label": "Cookie consent",
+    "text": "We use analytics cookies (Google Analytics and Microsoft Clarity) to understand how the site is used. They only load if you accept.",
+    "privacy": "Privacy policy",
+    "accept": "Accept",
+    "decline": "Decline"
+  },
+  "about": {
+    "metaTitle": "About us",
+    "metaDescription": "Sparkwings Enterprises is a technology and innovation company in Kerala, India and Saudi Arabia: Odoo ERP implementation, business automation, software development, cloud and IT consulting.",
+    "eyebrow": "About Sparkwings",
+    "title": "Digital Transformation",
+    "subtitle": "Empowering Businesses with Tailored IT Solutions",
+    "whoEyebrow": "Who we are",
+    "whoTitle": "Driving Success Through",
+    "whoTitleGrad": "Innovative Technology Services",
+    "whoBody": "Sparkwings Enterprises OPC Pvt. Ltd. is a technology and innovation-driven company dedicated to helping businesses transform ideas into powerful digital solutions.",
+    "areasLabel": "What we do",
+    "areas": [
+      "ERP implementation",
+      "Business automation",
+      "Software development",
+      "Cloud technologies",
+      "IT consulting",
+      "Digital transformation services"
+    ],
+    "tagline": "Transforming Ideas into Technology",
+    "legacyTitle": "A Legacy of Innovation",
+    "legacyTitleGrad": "and Excellence",
+    "visionLabel": "Our vision",
+    "vision": "To become a trusted global technology and innovation partner, empowering businesses through digital transformation and intelligent solutions.",
+    "missionLabel": "Our mission",
+    "mission": "To deliver innovative, scalable, and future-ready technology solutions that transform ideas into business success while fostering continuous learning, excellence, and customer satisfaction.",
+    "presenceTitle": "Where we work",
+    "presence": {
+      "in": {
+        "title": "Kerala, India",
+        "body": "Odoo implementation, custom software, websites and training."
+      },
+      "sa": {
+        "title": "Saudi Arabia",
+        "body": "ZATCA e-invoicing, Routewings van sales and Sparkwings Billing."
+      }
+    },
+    "partnerTitle": "Official Odoo Learning Partner",
+    "partnerBody": "We implement Odoo and train teams to use it well, so the system keeps working long after go-live.",
+    "partnerCta": "See training",
+    "founderTitle": "Our story",
+    "founderBody": "[Founder story — how and why Sparkwings started, in the founder’s own words]",
+    "teamTitle": "Meet Our Team",
+    "teamSubtitle": "Dedicated Professionals at Your Service",
+    "teamName": "[Team member name]",
+    "teamRole": "[Role]",
+    "ctaTitle": "Join Us Now",
+    "ctaBody": "Elevate Your Business with Sparkwings Enterprises Today!",
+    "ctaButton": "Get started"
+  }
+}

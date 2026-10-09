@@ -237,6 +237,12 @@
     "whatsapp": {
       "in": "WhatsApp India",
       "sa": "WhatsApp KSA"
+    },
+    "follow": "Follow us",
+    "social": {
+      "facebook": "Sparkwings on Facebook (opens in a new tab)",
+      "instagram": "Sparkwings on Instagram (opens in a new tab)",
+      "linkedin": "Sparkwings on LinkedIn (opens in a new tab)"
     }
   },
   "whatsapp": {

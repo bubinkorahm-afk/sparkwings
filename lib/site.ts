@@ -11,6 +11,12 @@ export const site = {
     in: { display: '+91 90725 81257', e164: '+919072581257', wa: '919072581257' },
     sa: { display: '+966 53 231 7529', e164: '+966532317529', wa: '966532317529' },
   },
+  /** Official profiles — also used for Organization JSON-LD `sameAs` (Iteration 8) */
+  social: {
+    facebook: 'https://www.facebook.com/Sparkwingspvt',
+    instagram: 'https://www.instagram.com/sparkwings_opc/',
+    linkedin: 'https://www.linkedin.com/in/sparkwings-enterprises-opc-private-limited-94b51a1a1',
+  },
 } as const;
 
 export const whatsappUrl = (region: 'in' | 'sa') => `https://wa.me/${site.phones[region].wa}`;

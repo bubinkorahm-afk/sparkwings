@@ -5,6 +5,7 @@ import { SparkwingsLogo } from '@/components/ui/SparkwingsLogo';
 import { Container } from '@/components/ui/Container';
 import { OdooPartnerBadge } from '@/components/ui/OdooPartnerBadge';
 import { WhatsAppIcon } from '@/components/ui/WhatsAppIcon';
+import { SocialIcon, type SocialNetwork } from '@/components/ui/SocialIcon';
 import { site, whatsappUrl } from '@/lib/site';
 
 const solutions = [
@@ -46,6 +47,22 @@ export function Footer() {
               <OdooPartnerBadge width={120} alt={t('partner')} />
               <p className="max-w-[140px] text-[12px] leading-snug font-bold uppercase tracking-[1px] text-muted">{t('partner')}</p>
             </div>
+            <p className="mt-8 mb-3 text-[12px] font-bold uppercase tracking-[1px] text-fg">{t('follow')}</p>
+            <ul className="flex gap-3">
+              {(Object.keys(site.social) as SocialNetwork[]).map(network => (
+                <li key={network}>
+                  <a
+                    href={site.social[network]}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={t(`social.${network}`)}
+                    className="flex h-12 w-12 items-center justify-center rounded-full border border-white/20 text-muted transition-colors hover:border-accent-2 hover:bg-white/5 hover:text-fg"
+                  >
+                    <SocialIcon network={network} />
+                  </a>
+                </li>
+              ))}
+            </ul>
           </div>
 
           <nav aria-label={t('solutions')}>

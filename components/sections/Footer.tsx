@@ -34,7 +34,7 @@ export function Footer() {
   const t = useTranslations('footer');
 
   return (
-    <footer className="border-t border-white/10 bg-[#0E0E0E] pt-20 pb-10">
+    <footer className="border-t border-white/10 bg-bg-deep pt-20 pb-10">
       <Container>
         <div className="grid grid-cols-2 gap-x-8 gap-y-12 lg:grid-cols-[1.6fr_1fr_1fr_1.3fr]">
           {/* Brand */}

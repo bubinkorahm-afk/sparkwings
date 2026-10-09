@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Check } from 'lucide-react';
 import { Container } from '@/components/ui/Container';
 import { GlassCard } from '@/components/ui/GlassCard';
@@ -10,7 +10,7 @@ import { Button, PillLink } from '@/components/ui/Button';
 import { SparkwingsLogo } from '@/components/ui/SparkwingsLogo';
 import { WhatsAppIcon } from '@/components/ui/WhatsAppIcon';
 import { cn } from '@/lib/utils';
-import type { ThemeName } from '@/lib/theme';
+import { ACTIVE_THEME, themes, type ThemeName } from '@/lib/theme';
 
 const swatches = [
   ['--bg', 'Background'],
@@ -31,10 +31,22 @@ const label = 'text-[12px] font-bold uppercase tracking-[1px] text-muted';
 
 /** Live preview of every Foundation primitive. Theme toggle here is preview-only; the site theme is set in lib/theme.ts. */
 export function StyleguideView() {
-  const [theme, setTheme] = useState<ThemeName>('glow');
+  const [theme, setTheme] = useState<ThemeName>(ACTIVE_THEME);
+
+  // Preview by swapping the theme class on <html> (so page background and header follow); restore on leave
+  useEffect(() => {
+    const html = document.documentElement;
+    const cls = Object.values(themes).map(t => t.bodyClass).filter(Boolean);
+    html.classList.remove(...cls);
+    if (themes[theme].bodyClass) html.classList.add(themes[theme].bodyClass);
+    return () => {
+      html.classList.remove(...cls);
+      if (themes[ACTIVE_THEME].bodyClass) html.classList.add(themes[ACTIVE_THEME].bodyClass);
+    };
+  }, [theme]);
 
   return (
-    <div className={cn('relative overflow-hidden', theme === 'spark' && 'theme-spark')}>
+    <div className="relative overflow-hidden">
       <GlowBlob color="a" size={560} opacity={0.35} style={{ top: -160, insetInlineEnd: -120 }} />
       <GlowBlob color="b" size={480} opacity={0.25} style={{ top: 900, insetInlineStart: -200 }} />
 
@@ -96,7 +108,7 @@ export function StyleguideView() {
               <p className={cn(label, 'mb-3')}>Body · DM Sans 300–400 · 15–17px · line-height 1.7</p>
               <p className="text-[17px] font-light text-muted">
                 One system for sales, stock, accounts and people. ZATCA-ready billing and field-sales apps for India and
-                Saudi Arabia. Muted #A3A3A3 on #121212 is about 7.9:1, comfortably above WCAG AA.
+                Saudi Arabia. Muted #A3A3A3 is about 7.4:1 on the Glow background and 7.6:1 on the Spark navy, comfortably above WCAG AA.
               </p>
             </div>
             <div>

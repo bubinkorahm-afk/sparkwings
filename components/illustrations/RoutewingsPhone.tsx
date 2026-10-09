@@ -9,7 +9,7 @@ export function RoutewingsPhone({ label }: { label: string }) {
     <Canvas w={520} h={360} label={label}>
       {/* map-ish backdrop card */}
       <div
-        className="absolute overflow-hidden border border-white/10 bg-[#1C1C1C]"
+        className="absolute overflow-hidden border border-white/10 bg-surface-2"
         style={{ left: u(30), top: u(40), width: u(300), height: u(250), borderRadius: u(18) }}
       >
         <svg viewBox="0 0 300 250" className="h-full w-full" aria-hidden="true">
@@ -25,7 +25,7 @@ export function RoutewingsPhone({ label }: { label: string }) {
 
       {/* phone */}
       <div
-        className="absolute border border-white/15 bg-[#151515] shadow-2xl shadow-black/60"
+        className="absolute border border-white/15 bg-device shadow-2xl shadow-black/60"
         style={{ right: u(60), top: u(10), width: u(170), height: u(330), borderRadius: u(28), padding: u(12), transform: 'rotate(4deg)' }}
       >
         <div className="mx-auto rounded-full bg-white/15" style={{ width: u(46), height: u(5), marginBottom: u(12) }} />
@@ -46,7 +46,7 @@ export function RoutewingsPhone({ label }: { label: string }) {
 
       {/* van stock card */}
       <div
-        className="absolute border border-white/15 bg-[#202020]/90 shadow-xl shadow-black/50"
+        className="absolute border border-white/15 bg-chip/90 shadow-xl shadow-black/50"
         style={{ left: u(0), bottom: u(10), width: u(150), padding: u(12), borderRadius: u(14), transform: 'rotate(-5deg)' }}
       >
         <div className="flex items-center" style={{ gap: u(6) }}>

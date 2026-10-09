@@ -9,7 +9,7 @@ export function BillingReceipt({ label }: { label: string }) {
     <Canvas w={520} h={360} label={label}>
       {/* printer */}
       <div
-        className="absolute flex items-center justify-between border border-white/15 bg-[#1f1f1f] shadow-2xl shadow-black/50"
+        className="absolute flex items-center justify-between border border-white/15 bg-chip shadow-2xl shadow-black/50"
         style={{ left: u(150), top: u(20), width: u(220), height: u(60), borderRadius: u(16), paddingInline: u(16) }}
       >
         <Printer style={{ width: u(22), height: u(22) }} className="text-muted" />
@@ -45,13 +45,13 @@ export function BillingReceipt({ label }: { label: string }) {
 
       {/* floating chips */}
       <div
-        className="absolute border border-white/15 bg-[#202020]/90 text-fg shadow-xl shadow-black/50"
+        className="absolute border border-white/15 bg-chip/90 text-fg shadow-xl shadow-black/50"
         style={{ left: u(10), top: u(150), padding: `${u(10)} ${u(14)}`, borderRadius: u(14), fontSize: u(12), transform: 'rotate(-5deg)' }}
       >
         English · العربية
       </div>
       <div
-        className="absolute border border-white/15 bg-[#202020]/90 text-fg shadow-xl shadow-black/50"
+        className="absolute border border-white/15 bg-chip/90 text-fg shadow-xl shadow-black/50"
         style={{ right: u(10), top: u(200), padding: `${u(10)} ${u(14)}`, borderRadius: u(14), fontSize: u(12), transform: 'rotate(5deg)' }}
       >
         Thermal · A4

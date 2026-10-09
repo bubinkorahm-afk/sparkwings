@@ -13,7 +13,7 @@ const nav = [
 export default function ConsoleLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-svh lg:grid lg:grid-cols-[240px_1fr]">
-      <aside className="border-b border-white/10 bg-[#0e0e0e] lg:sticky lg:flex lg:flex-col lg:pb-6 lg:top-0 lg:h-svh lg:border-e lg:border-b-0">
+      <aside className="border-b border-white/10 bg-bg-deep lg:sticky lg:flex lg:flex-col lg:pb-6 lg:top-0 lg:h-svh lg:border-e lg:border-b-0">
         <div className="flex items-center justify-between gap-4 px-5 py-4 lg:flex-col lg:items-stretch lg:py-6">
           <Link href="/admin" className="flex items-center gap-3 rounded-xl">
             <LogoMark height={32} />

@@ -91,8 +91,8 @@ export async function Testimonials() {
               <Reveal delay={i * 0.08} className="h-full">
                 <GlassCard as="figure" className="flex h-full flex-col rounded-[24px] p-8">
                   <div className="flex -space-x-3 rtl:space-x-reverse" aria-hidden="true">
-                    {['var(--accent-1)', 'var(--accent-2)', '#3a3a3a'].map((bg, j) => (
-                      <span key={j} className="h-11 w-11 rounded-full border-2 border-[#1a1a1a]" style={{ background: bg, opacity: j === 2 ? 1 : 0.85 }} />
+                    {['var(--accent-1)', 'var(--accent-2)', 'var(--line-strong)'].map((bg, j) => (
+                      <span key={j} className="h-11 w-11 rounded-full border-2 border-surface" style={{ background: bg, opacity: j === 2 ? 1 : 0.85 }} />
                     ))}
                   </div>
                   <Quote size={28} className="mt-7 text-accent-2" aria-hidden="true" />

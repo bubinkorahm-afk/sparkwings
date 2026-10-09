@@ -124,12 +124,12 @@ export function HeroCarousel() {
                   pointerEvents: abs > 1 ? 'none' : undefined,
                 }}
               >
-                <article className="overflow-hidden rounded-[24px] border border-white/12 bg-[#181818] shadow-2xl shadow-black/60">
+                <article className="overflow-hidden rounded-[24px] border border-white/12 bg-surface shadow-2xl shadow-black/60">
                   <div
                     className="relative aspect-[16/10] overflow-hidden"
                     style={{
                       background:
-                        'radial-gradient(120% 90% at 85% 0%, color-mix(in srgb, var(--glow-a) 45%, transparent), transparent 60%), radial-gradient(90% 80% at 0% 100%, color-mix(in srgb, var(--glow-b) 40%, transparent), transparent 60%), #141414',
+                        'radial-gradient(120% 90% at 85% 0%, color-mix(in srgb, var(--glow-a) 45%, transparent), transparent 60%), radial-gradient(90% 80% at 0% 100%, color-mix(in srgb, var(--glow-b) 40%, transparent), transparent 60%), var(--device)',
                     }}
                   >
                     {slide.image ? (

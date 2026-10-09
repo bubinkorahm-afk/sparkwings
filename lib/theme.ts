@@ -14,6 +14,8 @@ export interface ThemeConfig {
   glowA: string;
   glowB: string;
   gradBrand: string;
+  /** Page background — also used for the browser theme-color */
+  bg: string;
 }
 
 export const themes: Record<ThemeName, ThemeConfig> = {
@@ -25,6 +27,7 @@ export const themes: Record<ThemeName, ThemeConfig> = {
     glowA: '#BE185D',
     glowB: '#C2410C',
     gradBrand: 'linear-gradient(90deg, #EC4899 0%, #F97316 100%)',
+    bg: '#121212',
   },
   spark: {
     name: 'spark',
@@ -34,10 +37,11 @@ export const themes: Record<ThemeName, ThemeConfig> = {
     glowA: '#1E5BFF',
     glowB: '#0891B2',
     gradBrand: 'linear-gradient(90deg, #1E5BFF 0%, #22D3EE 100%)',
+    bg: '#0A0F1E',
   },
 };
 
-/** Change this value to 'spark' to enable the blue logo variant */
-export const ACTIVE_THEME: ThemeName = 'glow';
+/** 'spark' = blue theme matching the logo (navy backgrounds, blue → cyan accents). 'glow' = pink/orange. */
+export const ACTIVE_THEME: ThemeName = 'spark';
 
 export const activeTheme = themes[ACTIVE_THEME];

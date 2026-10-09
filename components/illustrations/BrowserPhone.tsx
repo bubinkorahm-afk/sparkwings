@@ -7,7 +7,7 @@ export function BrowserPhone({ label }: { label: string }) {
     <Canvas w={520} h={400} label={label}>
       {/* Browser */}
       <div
-        className="absolute overflow-hidden border border-white/15 bg-[#1C1C1C] shadow-2xl shadow-black/50"
+        className="absolute overflow-hidden border border-white/15 bg-surface-2 shadow-2xl shadow-black/50"
         style={{ left: u(10), top: u(30), width: u(400), height: u(290), borderRadius: u(16) }}
       >
         <div className="flex items-center border-b border-white/10" style={{ height: u(32), gap: u(6), paddingInline: u(12) }}>
@@ -36,7 +36,7 @@ export function BrowserPhone({ label }: { label: string }) {
 
       {/* Phone */}
       <div
-        className="absolute border border-white/15 bg-[#151515] shadow-2xl shadow-black/60"
+        className="absolute border border-white/15 bg-device shadow-2xl shadow-black/60"
         style={{ right: u(20), top: u(90), width: u(150), height: u(290), borderRadius: u(26), padding: u(10), transform: 'rotate(5deg)' }}
       >
         <div className="mx-auto rounded-full bg-white/15" style={{ width: u(44), height: u(5), marginBottom: u(12) }} />

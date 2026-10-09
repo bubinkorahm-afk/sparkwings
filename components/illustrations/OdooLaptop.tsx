@@ -7,7 +7,7 @@ export function OdooLaptop({ label }: { label: string }) {
     <Canvas w={520} h={400} label={label}>
       {/* Screen */}
       <div
-        className="absolute overflow-hidden border border-white/15 bg-[#1C1C1C]"
+        className="absolute overflow-hidden border border-white/15 bg-surface-2"
         style={{ left: u(50), top: u(40), width: u(420), height: u(270), borderRadius: `${u(16)} ${u(16)} 0 0`, padding: u(10) }}
       >
         <div className="relative h-full w-full overflow-hidden" style={{ borderRadius: u(8), background: 'var(--grad-brand)' }}>
@@ -42,7 +42,7 @@ export function OdooLaptop({ label }: { label: string }) {
       </div>
       {/* Base */}
       <div
-        className="absolute bg-gradient-to-b from-[#3a3a3a] to-[#1e1e1e]"
+        className="absolute bg-gradient-to-b from-line-strong to-surface-2"
         style={{ left: u(20), top: u(310), width: u(480), height: u(16), borderRadius: `0 0 ${u(14)} ${u(14)}` }}
       />
 
@@ -58,7 +58,7 @@ export function OdooLaptop({ label }: { label: string }) {
 function FloatCard({ label, lines, style }: { label: string; lines: number[]; style: React.CSSProperties }) {
   return (
     <div
-      className="absolute border border-white/15 bg-[#202020]/85 shadow-xl shadow-black/50 backdrop-blur-md"
+      className="absolute border border-white/15 bg-chip/85 shadow-xl shadow-black/50 backdrop-blur-md"
       style={{ width: u(130), padding: u(12), borderRadius: u(14), ...style }}
     >
       <div className="flex items-center" style={{ gap: u(6) }}>

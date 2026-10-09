@@ -54,7 +54,7 @@ export function ZatcaInvoice({ label }: { label: string }) {
 
       {/* Phase 2 card */}
       <div
-        className="absolute border border-white/15 bg-[#202020]/85 shadow-xl shadow-black/50 backdrop-blur-md"
+        className="absolute border border-white/15 bg-chip/85 shadow-xl shadow-black/50 backdrop-blur-md"
         style={{ right: u(10), bottom: u(40), padding: `${u(14)} ${u(18)}`, borderRadius: u(16), transform: 'rotate(4deg)' }}
       >
         <div className="flex items-center" style={{ gap: u(10) }}>

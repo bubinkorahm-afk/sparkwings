@@ -134,7 +134,7 @@ export function DailyBars({ data, label }: { data: { day: string; n: number }[];
                   className="block w-full rounded-t-[4px] bg-accent-2 transition-opacity group-hover:opacity-80"
                   style={{ height: d.n ? `${(d.n / top) * 100}%` : 0, minHeight: d.n ? 3 : 0 }}
                 />
-                <span className="pointer-events-none absolute bottom-full left-1/2 z-10 mb-2 -translate-x-1/2 rounded-lg border border-white/15 bg-[#0e0e0e] px-2.5 py-1.5 text-[12px] whitespace-nowrap text-fg opacity-0 shadow-lg transition-opacity group-hover:opacity-100">
+                <span className="pointer-events-none absolute bottom-full left-1/2 z-10 mb-2 -translate-x-1/2 rounded-lg border border-white/15 bg-bg-deep px-2.5 py-1.5 text-[12px] whitespace-nowrap text-fg opacity-0 shadow-lg transition-opacity group-hover:opacity-100">
                   {fmt(d.day)} · <strong className="font-semibold">{d.n}</strong> lead{d.n === 1 ? '' : 's'}
                 </span>
                 <span className="sr-only">

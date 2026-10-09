@@ -11,6 +11,8 @@ export const site = {
     in: { display: '+91 90725 81257', e164: '+919072581257', wa: '919072581257' },
     sa: { display: '+966 53 231 7529', e164: '+966532317529', wa: '966532317529' },
   },
+  /** Indian office city (no street address published yet) */
+  location: { city: 'Kottayam', region: 'Kerala', country: 'IN' },
   /** Official profiles — also used for Organization JSON-LD `sameAs` (Iteration 8) */
   social: {
     facebook: 'https://www.facebook.com/Sparkwingspvt',

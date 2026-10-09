@@ -27,3 +27,9 @@ Edit figures in `content/home.ts`, copy in `messages/{en,ar}.json`.
 ## Hero carousel
 
 - [ ] **Slide images (optional):** the 5 slides (Odoo, ZATCA, Routewings, Billing, Web) use code-built illustrations. To show real screenshots or project photos instead, put them in `public/images/slides/` and set `image` in `content/hero-slides.ts`. Use real Sparkwings work only, at 1600×1000 (16:10).
+
+## Local SEO (Kottayam / Kerala)
+
+- [ ] **Confirm Kottayam** is the Indian office city (used in titles, copy and structured data). Add the full street address and postcode to `lib/site.ts` for the LocalBusiness data.
+- [ ] **Google Business Profile:** create or verify the "Sparkwings" listing in Kottayam with the same name, phone (+91 90725 81257) and website. This matters more for "… in Kottayam" searches than anything on the site.
+- [ ] **Search Console:** after launch, verify the domain and submit `https://www.sparkwings.co.in/sitemap.xml`.

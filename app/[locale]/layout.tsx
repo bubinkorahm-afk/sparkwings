@@ -6,6 +6,8 @@ import { routing } from '@/i18n/routing';
 import { unbounded, dmSans, ibmPlexSansArabic } from '@/lib/fonts';
 import { activeTheme } from '@/lib/theme';
 import { site } from '@/lib/site';
+import { targetKeywords } from '@/lib/seo';
+import { getTranslations } from 'next-intl/server';
 import { Header } from '@/components/sections/Header';
 import { Footer } from '@/components/sections/Footer';
 import { WhatsAppFloat } from '@/components/sections/WhatsAppFloat';
@@ -14,21 +16,24 @@ import { MotionProvider } from '@/components/ui/MotionProvider';
 import { cn } from '@/lib/utils';
 import '@/app/globals.css';
 
-export const metadata: Metadata = {
-  metadataBase: new URL(site.url),
-  title: {
-    default: 'Sparkwings — Odoo & ZATCA Software Partner | Kerala & Saudi Arabia',
-    template: '%s | Sparkwings',
-  },
-  description:
-    'Official Odoo Learning Partner in Kerala, India and Saudi Arabia. Odoo ERP implementation, ZATCA Phase 1 & 2 e-invoicing, Routewings van sales app, and custom software.',
-  authors: [{ name: site.legalName }],
-  creator: site.legalName,
-  openGraph: {
-    type: 'website',
-    siteName: site.shortName,
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = await rootLocale();
+  const t = await getTranslations('meta');
+  return {
+    metadataBase: new URL(site.url),
+    title: { default: t('defaultTitle'), template: '%s | Sparkwings' },
+    description: t('homeDescription'),
+    // Ignored by Google, harmless elsewhere; the phrases also live in titles and copy (lib/seo.ts)
+    keywords: locale === 'en' ? targetKeywords : undefined,
+    authors: [{ name: site.legalName }],
+    creator: site.legalName,
+    openGraph: {
+      type: 'website',
+      siteName: site.shortName,
+      locale: locale === 'ar' ? 'ar_SA' : 'en_IN',
+    },
+  };
+}
 
 export const viewport: Viewport = {
   themeColor: activeTheme.bg,

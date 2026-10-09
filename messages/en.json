@@ -32,7 +32,7 @@
     "desc": "One system for sales, stock, accounts and people. ZATCA-ready billing and field-sales apps for India and Saudi Arabia.",
     "cta": "Book a demo",
     "whatsapp": "Chat with us on WhatsApp",
-    "eyebrow": "Odoo & ZATCA software partner · India & Saudi Arabia",
+    "eyebrow": "Odoo & ZATCA software partner · Kottayam, Kerala & Saudi Arabia",
     "carouselLabel": "What we build",
     "slideOf": "{index} of {total}",
     "goToSlide": "Show {title}",
@@ -182,7 +182,7 @@
     "title": "Get a free 30-minute",
     "titleGrad": "ERP consultation.",
     "body": "Tell us what you run today. We’ll show you what Odoo, ZATCA billing or Routewings would look like for your business.",
-    "india": "India",
+    "india": "Kottayam, India",
     "saudi": "Saudi Arabia",
     "nameLabel": "Your name",
     "waLabel": "WhatsApp number",
@@ -257,7 +257,7 @@
   },
   "about": {
     "metaTitle": "About us",
-    "metaDescription": "Sparkwings Enterprises is a technology and innovation company in Kerala, India and Saudi Arabia: Odoo ERP implementation, business automation, software development, cloud and IT consulting.",
+    "metaDescription": "Sparkwings Enterprises is a software company in Kottayam, Kerala and an Odoo partner in Kerala: Odoo ERP implementation, software development, website designing, POS systems and IT consulting for India and Saudi Arabia.",
     "eyebrow": "About Sparkwings",
     "title": "Digital Transformation",
     "subtitle": "Empowering Businesses with Tailored IT Solutions",
@@ -284,7 +284,7 @@
     "presenceTitle": "Where we work",
     "presence": {
       "in": {
-        "title": "Kerala, India",
+        "title": "Kottayam, Kerala, India",
         "body": "Odoo implementation, custom software, websites and training."
       },
       "sa": {
@@ -304,5 +304,35 @@
     "ctaTitle": "Join Us Now",
     "ctaBody": "Elevate Your Business with Sparkwings Enterprises Today!",
     "ctaButton": "Get started"
+  },
+  "meta": {
+    "defaultTitle": "Sparkwings — Odoo Partner in Kerala & Software Development in Kottayam",
+    "homeTitle": "Odoo Partner in Kerala | Software Development & Website Designing in Kottayam",
+    "homeDescription": "Sparkwings is an Odoo Learning Partner in Kottayam, Kerala: Odoo ERP implementation in Kerala, software development, website designing, POS systems and ZATCA e-invoicing for India and Saudi Arabia."
+  },
+  "seo": {
+    "eyebrow": "Kottayam, Kerala",
+    "title": "Software company in",
+    "titleGrad": "Kottayam, Kerala",
+    "body": "Sparkwings is based in Kottayam and works with businesses across Kerala and Saudi Arabia. As an official Odoo Learning Partner in Kerala, we handle Odoo ERP implementation from first workshop to go-live, build custom software and websites, and set up point-of-sale systems that keep billing, stock and accounts in one place.",
+    "more": "Learn more",
+    "items": {
+      "odoo": {
+        "title": "Odoo ERP implementation in Kerala",
+        "body": "Sales, CRM, POS, inventory, accounting and payroll — configured, migrated and taught by a Kerala Odoo partner."
+      },
+      "software": {
+        "title": "Software development in Kottayam",
+        "body": "Web and mobile apps built around how your team actually works, from our Kottayam office."
+      },
+      "web": {
+        "title": "Website designing in Kottayam",
+        "body": "Fast, mobile-first websites in English and Arabic, with domains and Google Workspace set up for you."
+      },
+      "pos": {
+        "title": "POS experts in Kerala",
+        "body": "Point-of-sale billing for shops and showrooms, connected to stock and accounts — on Odoo POS or Sparkwings Billing."
+      }
+    }
   }
 }
